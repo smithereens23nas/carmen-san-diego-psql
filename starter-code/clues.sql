@@ -42,7 +42,7 @@ FROM city
 WHERE countrycode = 'SMR' 
 AND name != 'San Marino'
 
---ANSWER: Serravalle
+--ANSWER: Serravallef
 
 
 -- Clue #5: Oh no, she pulled a switch – there are two cities with very similar names, but in totally different
