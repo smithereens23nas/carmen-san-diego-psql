@@ -59,7 +59,7 @@ WHERE city.name LIKE 'Serra%' AND country.continent = 'South America' AND countr
  -- follow right behind you!
 SELECT capital
 FROM country
-WHERE code = 'BRA';
+WHERE name = 'Brazil';
 --ANSWER: 211
 
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the international airport, and she beat us to
@@ -83,6 +83,9 @@ WHERE id = 211;
 
 -- We're counting on you, gumshoe. Find out where she's headed, send us the info, and we'll be sure to meet her at the gates with bells on.
 
+SELECT *
+FROM city
+WHERE population = 91084
 
 
--- She's in ______________________!
+-- She's in SANTA MONICA!
